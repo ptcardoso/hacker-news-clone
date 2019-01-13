@@ -1,5 +1,7 @@
 # hacker-news-clone
 
+A simplified hacker news clone made with vue
+
 ## Project setup
 ```
 yarn install
