@@ -13,7 +13,7 @@ class NewsStore {
 
     set news(ns: NewsItem[]) {
         this._news = ns;
-        EventBus.$emit(NewsStoreEvents.UPDATED, {news: this._news});
+        EventBus.$emit(NewsStoreEvents.UPDATED, this._news);
     }
 
     get news(): NewsItem[] {
